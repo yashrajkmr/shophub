@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 2999,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+    "description": "Premium wireless headphones with active noise cancellation and 30-hour battery life. Perfect for music lovers and professionals.",
+    "inStock": true,
+    "reviews": 156
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "price": 4599,
+    "category": "Electronics",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+    "description": "Track your fitness goals with heart rate monitoring, GPS, and 50+ workout modes. Water-resistant up to 50m.",
+    "inStock": true,
+    "reviews": 203
+  },
+  {
+    "id": 3,
+    "name": "Leather Messenger Bag",
+    "price": 3299,
+    "category": "Fashion",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+    "description": "Handcrafted genuine leather messenger bag with multiple compartments. Perfect for work or travel.",
+    "inStock": true,
+    "reviews": 89
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes - Pro Series",
+    "price": 5499,
+    "category": "Fashion",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "description": "Professional running shoes with advanced cushioning technology and breathable mesh design.",
+    "inStock": true,
+    "reviews": 312
+  },
+  {
+    "id": 5,
+    "name": "Coffee Maker - Automatic",
+    "price": 6999,
+    "category": "Home",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+    "description": "Programmable coffee maker with built-in grinder and thermal carafe. Makes perfect coffee every time.",
+    "inStock": true,
+    "reviews": 145
+  },
+  {
+    "id": 6,
+    "name": "Yoga Mat Premium",
+    "price": 1299,
+    "category": "Sports",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500",
+    "description": "Extra thick yoga mat with non-slip surface. Eco-friendly and perfect for all types of yoga and exercise.",
+    "inStock": true,
+    "reviews": 267
+  },
+  {
+    "id": 7,
+    "name": "Portable Bluetooth Speaker",
+    "price": 1999,
+    "category": "Electronics",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500",
+    "description": "Waterproof Bluetooth speaker with 360-degree sound and 12-hour battery life.",
+    "inStock": true,
+    "reviews": 178
+  },
+  {
+    "id": 8,
+    "name": "Stainless Steel Water Bottle",
+    "price": 799,
+    "category": "Home",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+    "description": "Insulated water bottle keeps drinks cold for 24 hours or hot for 12 hours. BPA-free and leak-proof.",
+    "inStock": true,
+    "reviews": 421
+  },
+  {
+    "id": 9,
+    "name": "Gaming Mouse RGB",
+    "price": 2499,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+    "description": "High-precision gaming mouse with customizable RGB lighting and programmable buttons.",
+    "inStock": false,
+    "reviews": 234
+  },
+  {
+    "id": 10,
+    "name": "Canvas Backpack",
+    "price": 1899,
+    "category": "Fashion",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+    "description": "Vintage-style canvas backpack with laptop compartment. Durable and stylish for daily use.",
+    "inStock": true,
+    "reviews": 156
+  },
+  {
+    "id": 11,
+    "name": "Desk Lamp LED",
+    "price": 1499,
+    "category": "Home",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=500",
+    "description": "Adjustable LED desk lamp with touch controls and USB charging port. Eye-friendly light.",
+    "inStock": true,
+    "reviews": 92
+  },
+  {
+    "id": 12,
+    "name": "Sunglasses - Polarized",
+    "price": 2199,
+    "category": "Fashion",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500",
+    "description": "Polarized sunglasses with UV400 protection. Stylish design for both men and women.",
+    "inStock": true,
+    "reviews": 178
+  },
+  {
+    "id": 13,
+    "name": "Wireless Keyboard & Mouse Combo",
+    "price": 2799,
+    "category": "Electronics",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+    "description": "Slim wireless keyboard and mouse set with long battery life and quiet keys.",
+    "inStock": true,
+    "reviews": 201
+  },
+  {
+    "id": 14,
+    "name": "Plant Pot Set - Ceramic",
+    "price": 899,
+    "category": "Home",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500",
+    "description": "Set of 3 ceramic plant pots with drainage holes. Modern design for indoor plants.",
+    "inStock": true,
+    "reviews": 134
+  },
+  {
+    "id": 15,
+    "name": "Protein Shaker Bottle",
+    "price": 499,
+    "category": "Sports",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1591731604164-53e59eee2d31?w=500",
+    "description": "Leak-proof protein shaker with mixing ball and measurement markings. Dishwasher safe.",
+    "inStock": true,
+    "reviews": 289
+  },
+  {
+    "id": 16,
+    "name": "Wall Clock - Modern",
+    "price": 1299,
+    "category": "Home",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=500",
+    "description": "Silent wall clock with modern design. Perfect for living room, bedroom, or office.",
+    "inStock": true,
+    "reviews": 167
+  },
+  {
+    "id": 17,
+    "name": "Phone Stand - Adjustable",
+    "price": 699,
+    "category": "Electronics",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1589739900243-e99ef3a85a3f?w=500",
+    "description": "Universal phone stand with adjustable height and angle. Compatible with all smartphones.",
+    "inStock": true,
+    "reviews": 312
+  },
+  {
+    "id": 18,
+    "name": "Dumbbell Set - 2kg Each",
+    "price": 1799,
+    "category": "Sports",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500",
+    "description": "Neoprene-coated dumbbells for home workouts. Non-slip grip and durable construction.",
+    "inStock": true,
+    "reviews": 245
+  },
+  {
+    "id": 19,
+    "name": "Travel Pillow - Memory Foam",
+    "price": 999,
+    "category": "Home",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=500",
+    "description": "Ergonomic neck pillow with memory foam for comfortable travel. Includes carry bag.",
+    "inStock": true,
+    "reviews": 198
+  },
+  {
+    "id": 20,
+    "name": "Wrist Watch - Analog",
+    "price": 3499,
+    "category": "Fashion",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500",
+    "description": "Classic analog watch with stainless steel strap and sapphire crystal glass. Water-resistant.",
+    "inStock": true,
+    "reviews": 156
+  }
+]
