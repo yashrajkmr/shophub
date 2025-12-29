@@ -1,6 +1,6 @@
 // src/App.tsx
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Toaster } from 'react-hot-toast'; // Added this
+import { Toaster } from 'react-hot-toast'; 
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
@@ -19,7 +19,7 @@ function App() {
         <div className="flex flex-col min-h-screen">
           <Navbar />
           {/* This component renders the pop-ups */}
-          <Toaster position="top-right" />
+          <Toaster position="bottom-right" />
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />

@@ -1,13 +1,16 @@
 // src/pages/Products.tsx
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom'; 
 import { Search } from 'lucide-react';
 import type { Product, FilterState } from '../types';
 import ProductCard from '../components/products/ProductCard';
 import FilterSidebar from '../components/products/FilterSidebar';
 
 const Products = () => {
+  const [searchParams] = useSearchParams(); 
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
+  
   const [filters, setFilters] = useState<FilterState>({
     category: 'All',
     minPrice: 0,
@@ -16,6 +19,18 @@ const Products = () => {
     sortBy: 'default',
   });
 
+  
+  useEffect(() => {
+    const categoryParam = searchParams.get('category');
+    if (categoryParam) {
+      setFilters(prev => ({ ...prev, category: categoryParam }));
+    } else {
+      // If no category in URL, reset to All
+      setFilters(prev => ({ ...prev, category: 'All' }));
+    }
+  }, [searchParams]); 
+
+  
   useEffect(() => {
     fetch('/products.json')
       .then((res) => res.json())
@@ -79,7 +94,13 @@ const Products = () => {
         {/* Products Grid */}
         <div className="lg:col-span-3">
           <div className="mb-4">
-            <p className="text-gray-600">Showing {filteredProducts.length} products</p>
+            <p className="text-gray-600">
+                
+                Showing {filteredProducts.length} results for 
+                <span className="font-bold text-primary-600 ml-1">
+                    {filters.category === 'All' ? 'All Products' : filters.category}
+                </span>
+            </p>
           </div>
           {filteredProducts.length === 0 ? (
             <div className="text-center py-12">

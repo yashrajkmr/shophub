@@ -1,7 +1,7 @@
 // src/pages/Checkout.tsx
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import toast from 'react-hot-toast'; // Added this
+import toast from 'react-hot-toast'; 
 import { useCart } from '../context/CartContext';
 import type { CheckoutFormData, FormErrors } from '../types';
 import { formatPrice, validateEmail, validatePhone, validatePincode } from '../utils/formatters';
@@ -48,7 +48,7 @@ const Checkout = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (validate()) {
-      toast.success('Order placed successfully! 🎉'); // Triggers celebration
+      toast.success('Order placed successfully! 🎉'); 
       navigate('/order-success');
     }
   };

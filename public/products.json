@@ -159,7 +159,7 @@
     "price": 499,
     "category": "Sports",
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1591731604164-53e59eee2d31?w=500",
+    "image": "/public/images/shaker.jpg.webp",
     "description": "Leak-proof protein shaker with mixing ball and measurement markings. Dishwasher safe.",
     "inStock": true,
     "reviews": 289
@@ -181,7 +181,7 @@
     "price": 699,
     "category": "Electronics",
     "rating": 4.2,
-    "image": "https://images.unsplash.com/photo-1589739900243-e99ef3a85a3f?w=500",
+    "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=500&q=80",
     "description": "Universal phone stand with adjustable height and angle. Compatible with all smartphones.",
     "inStock": true,
     "reviews": 312

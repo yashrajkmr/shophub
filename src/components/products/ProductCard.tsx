@@ -1,7 +1,7 @@
 // src/components/products/ProductCard.tsx
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Star } from 'lucide-react';
-import toast from 'react-hot-toast'; // Added this
+import toast from 'react-hot-toast'; 
 import type { Product } from '../../types';
 import { useCart } from '../../context/CartContext';
 import { formatPrice } from '../../utils/formatters';
