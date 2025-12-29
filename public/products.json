@@ -159,7 +159,7 @@
     "price": 499,
     "category": "Sports",
     "rating": 4.5,
-    "image": "/public/images/shaker.jpg.webp",
+    "image": "/public/images/shaker.jpg",
     "description": "Leak-proof protein shaker with mixing ball and measurement markings. Dishwasher safe.",
     "inStock": true,
     "reviews": 289
