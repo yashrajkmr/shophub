@@ -8,7 +8,7 @@ import { formatPrice, validateEmail, validatePhone, validatePincode } from '../u
 
 const Checkout = () => {
   const navigate = useNavigate();
-  const { cart, getCartTotal, clearCart } = useCart();
+  const { cart, getCartTotal, } = useCart();
   const [formData, setFormData] = useState<CheckoutFormData>({
     name: '',
     email: '',
