@@ -49,7 +49,6 @@ const Checkout = () => {
     e.preventDefault();
     if (validate()) {
       toast.success('Order placed successfully! 🎉'); // Triggers celebration
-      clearCart();
       navigate('/order-success');
     }
   };

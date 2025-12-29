@@ -1,8 +1,17 @@
 // src/pages/OrderSuccess.tsx
+import { useEffect } from 'react'; // <--- Added this
 import { Link } from 'react-router-dom';
 import { CheckCircle } from 'lucide-react';
+import { useCart } from '../context/CartContext'; // <--- Added this
 
 const OrderSuccess = () => {
+  const { clearCart } = useCart(); // <--- Get the clear function
+
+  // The "Cleanup Crew": This runs ONCE when the page loads
+  useEffect(() => {
+    clearCart();
+  }, [clearCart]);
+
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="max-w-2xl mx-auto text-center">
