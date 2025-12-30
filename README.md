@@ -47,7 +47,7 @@ npm run dev
 **Live at**: `http://localhost:5173`
 
 ## 🛠️ Tech Stack
-React 18 - TypeScript - Tailwind CSS - Vite - React Router - Context API
+React 18 • TypeScript • Tailwind CSS • Vite • React Router • Context API
 
 ## 💡 Interview Highlights
 
